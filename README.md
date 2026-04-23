@@ -69,9 +69,10 @@ Deterrent) and designed to be actionable by security and engineering teams.
 
 If you use this framework in research or practice, please cite the accompanying paper:
 
-> Josh Harguess and Chris M. Ward, "Operationalizing enterprise AI security: an
-> open-source framework for AI cyber risk management," Proc. SPIE, Assurance and
-> Security for AI-enabled Systems 2026 (2026). DOI to be assigned upon publication.
+> Josh Harguess, Chris M. Ward, and Eric Cardinal, "Operationalizing enterprise AI
+> security: an open-source framework for AI cyber risk management," Proc. SPIE,
+> Assurance and Security for AI-enabled Systems 2026 (2026). DOI to be assigned upon
+> publication.
 
 A machine-readable citation is available in [CITATION.cff](CITATION.cff).
 
