@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this framework in research or practice, please cite the accompanying paper."
+type: software
+title: "AI Cyber Risk Framework"
+version: 1.0.0
+date-released: 2026-04-23
+license: CC-BY-4.0
+repository-code: "https://github.com/FireMountainLabs/ai-cyber-risk-framework"
+authors:
+  - family-names: Harguess
+    given-names: Josh
+    affiliation: "Fire Mountain Labs"
+  - family-names: Ward
+    given-names: Chris M.
+    affiliation: "Fire Mountain Labs"
+abstract: >
+  An open-source, practitioner-focused framework for operationalizing AI cyber risk
+  management in enterprise environments. Comprises three pillars: AI Definitions &
+  Taxonomy (112+ terms, 8 categories), AI Risk Taxonomy (187+ risks, 14 categories),
+  and AI Control Framework (200+ sub-controls, 25 domains).
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: Harguess
+      given-names: Josh
+      affiliation: "Fire Mountain Labs"
+    - family-names: Ward
+      given-names: Chris M.
+      affiliation: "Fire Mountain Labs"
+  title: "Operationalizing enterprise AI security: an open-source framework for AI cyber risk management"
+  year: 2026
+  conference:
+    name: "SPIE Defense + Commercial Sensing 2026"
+  collection-title: "Assurance and Security for AI-enabled Systems 2026"
+  publisher:
+    name: "SPIE"
+  notes: "DOI to be assigned upon publication."
