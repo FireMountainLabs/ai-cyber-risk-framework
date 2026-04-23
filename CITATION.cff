@@ -15,7 +15,7 @@ authors:
     affiliation: "Fire Mountain Labs"
   - family-names: Cardinal
     given-names: Eric
-    affiliation: "Fire Mountain Labs"
+    affiliation: "Delta Dental of California"
 abstract: >
   An open-source, practitioner-focused framework for operationalizing AI cyber risk
   management in enterprise environments. Comprises three pillars: AI Definitions &
@@ -32,7 +32,7 @@ preferred-citation:
       affiliation: "Fire Mountain Labs"
     - family-names: Cardinal
       given-names: Eric
-      affiliation: "Fire Mountain Labs"
+      affiliation: "Delta Dental of California"
   title: "Operationalizing enterprise AI security: an open-source framework for AI cyber risk management"
   year: 2026
   conference:
