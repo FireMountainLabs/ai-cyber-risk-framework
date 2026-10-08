@@ -21,24 +21,27 @@ The AI Cyber Risk Framework is organized into three pillars:
 ### Pillar I — AI Definitions & Taxonomy
 `AIML_DEFINITIONS_AND_TAXONOMY.xlsx`
 
-A controlled vocabulary of **112+ terms** across **8 categories**, providing a shared
+A controlled vocabulary of **112 terms** across **8 categories**, providing a shared
 language for AI security practitioners, risk teams, and leadership. Consistent
 terminology is the foundation for meaningful risk communication.
 
 ### Pillar II — AI Risk Taxonomy
 `AIML_RISK_TAXONOMY.xlsx`
 
-A structured catalog of **187+ risks** across **14 categories**, spanning both
-AI-specific risks (e.g., prompt injection, data poisoning, model extraction, agentic
-goal misalignment) and cyber-technical risks that intersect with AI deployment (e.g.,
-supply chain compromise, API abuse, infrastructure misconfiguration).
+A structured catalog of **171 risks**: **108 AI-specific risks** across **14 categories**
+(e.g., prompt injection, data poisoning, model extraction, agentic goal misalignment)
+and **63 cyber-technical risks** organized by the six STRIDE categories (spoofing,
+tampering, repudiation, information disclosure, denial of service, and elevation of
+privilege) as they apply to AI deployment environments.
 
 ### Pillar III — AI Control Framework
 `AIML_CONTROL_FRAMEWORK.xlsx`
 
-A comprehensive set of **200+ sub-controls** across **25 domains**, mapped to the
-risks in Pillar II. Controls are classified by type (Preventive, Detective, Corrective,
-Deterrent) and designed to be actionable by security and engineering teams.
+A comprehensive set of **177 sub-controls** across **25 domains** (15 core AI/ML
+lifecycle domains and 10 agentic AI domains), mapped to the risks in Pillar II. Each
+sub-control is classified as AI-specific (addressing risks unique to AI systems) or
+supporting (applying established cybersecurity practice to AI assets), and includes
+maturity indicators to support implementation planning.
 
 ---
 
