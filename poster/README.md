@@ -4,7 +4,7 @@
 
 Josh Harguess, **Chris M. Ward** (Fire Mountain Labs, San Diego, CA, USA) · Eric Cardinal (Delta Dental of California, San Francisco, CA, USA)
 
-CAMLIS 2026 poster session, 22 October 2026, Arlington, VA. [Download the 36 × 48 in PDF](CAMLIS2026_poster.pdf).
+[CAMLIS 2026](https://www.camlis.org) (Conference on Applied Machine Learning in Information Security) poster session, 22 October 2026, Arlington, VA. [Download the 36 × 48 in PDF](CAMLIS2026_poster.pdf).
 
 ---
 
