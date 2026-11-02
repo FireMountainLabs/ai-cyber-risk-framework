@@ -1,51 +1,46 @@
-# Operationalizing Enterprise AI Security
+<p align="center">
+  <img src="figures/banner.svg" alt="Operationalizing Enterprise AI Security: an open-source framework for AI cyber risk management. CAMLIS 2026 poster." width="100%">
+</p>
 
-**An Open-Source Framework for AI Cyber Risk Management**
+<p align="center">
+  <a href="https://www.camlis.org"><img alt="CAMLIS 2026" src="https://img.shields.io/badge/CAMLIS-2026-003452?style=for-the-badge&labelColor=CB6929"></a>
+  <a href="CAMLIS2026_poster.pdf"><img alt="Download the PDF" src="https://img.shields.io/badge/Poster-36%20%C3%97%2048%20in%20PDF-003452?style=for-the-badge&labelColor=74121D"></a>
+  <a href="https://github.com/FireMountainLabs/ai-cyber-risk-framework"><img alt="Framework repository" src="https://img.shields.io/badge/Framework-CC%20BY%204.0-003452?style=for-the-badge&labelColor=56876D"></a>
+</p>
 
-Josh Harguess, **Chris M. Ward** (Fire Mountain Labs, San Diego, CA, USA) · Eric Cardinal (Delta Dental of California, San Francisco, CA, USA)
-
-[CAMLIS 2026](https://www.camlis.org) (Conference on Applied Machine Learning in Information Security) poster session, 22 October 2026, Arlington, VA. [Download the 36 × 48 in PDF](CAMLIS2026_poster.pdf).
+<p align="center">
+  Presented at <a href="https://www.camlis.org">CAMLIS 2026</a> (Conference on Applied Machine Learning in Information Security), 22 October 2026, Arlington, VA.
+</p>
 
 ---
 
-## 1. Motivation
+## 1 · Motivation
 
-| Traditional cybersecurity | AI systems |
-| --- | --- |
-| Deterministic: same input, same output | Non-deterministic: same prompt, different outputs |
-| Attacks exploit code, configuration, access | Behavior steerable through inputs alone |
-| Perimeter defense and patch management | Attack surface: training data, weights, inference API |
+<img src="figures/motivation.svg" alt="Traditional cybersecurity is deterministic, with attacks on code, configuration and access. AI systems are non-deterministic, steerable through inputs alone, with an attack surface of training data, weights and inference API." width="100%">
 
 **AI-specific risk classes**
 
-- Prompt injection
-- Data poisoning
-- Model extraction
-- AI output liability
-- Agentic goal misalignment
+<img src="figures/risk-classes.svg" alt="AI-specific risk classes: prompt injection, data poisoning, model extraction, AI output liability, agentic goal misalignment" width="100%">
 
-## 2. Framework Overview
+## 2 · Framework Overview
 
-| Pillar | Name | Size |
-| --- | --- | --- |
-| I | AI Definitions & Taxonomy | 112 terms · 8 categories |
-| II | AI Risk Taxonomy | 171 risks · 14 categories |
-| III | AI Control Framework | 177 sub-controls · 25 domains |
+<img src="figures/pillars.svg" alt="Three pillars: Pillar I AI Definitions and Taxonomy, 112 terms in 8 categories; Pillar II AI Risk Taxonomy, 171 risks in 14 categories; Pillar III AI Control Framework, 177 sub-controls in 25 domains." width="100%">
 
 - Bidirectional risk–control mapping
 - Operationalizes NIST AI RMF MEASURE and MANAGE [4]
 
-## 3. Pillar I: Definitions
+## 3 · Pillar I: Definitions
 
-- 112 terms; sources: ISO/IEC 22989, NIST AI 600-1, OWASP LLM Top 10
+- **112 terms**; sources: ISO/IEC 22989, NIST AI 600-1, OWASP LLM Top 10
 - Security implication stated in each definition
 - e.g., *User Prompt*: primary attack vector for generative AI
 
-## 4. Pillar II: Risk Taxonomy
+## 4 · Pillar II: Risk Taxonomy
 
-| 171 | 108 | 63 |
-| :---: | :---: | :---: |
-| Total risks | AI-specific | Cyber-technical |
+<img src="figures/risk-taxonomy.svg" alt="Pillar II has 171 risks: 108 AI-specific and 63 cyber-technical. The largest AI risk category is AI System Security with 23 risks." width="100%">
+
+<details>
+<summary>Risk counts as a table</summary>
 
 | AI risk category (14) | Risks |
 | --- | ---: |
@@ -64,7 +59,9 @@ Josh Harguess, **Chris M. Ward** (Fire Mountain Labs, San Diego, CA, USA) · Eri
 | Shadow AI | 1 |
 | Competitive Lag | 1 |
 
-## 5. Risk Classification
+</details>
+
+## 5 · Risk Classification
 
 | Risk | Class | Control placement |
 | --- | --- | --- |
@@ -74,47 +71,35 @@ Josh Harguess, **Chris M. Ward** (Fire Mountain Labs, San Diego, CA, USA) · Eri
 - Three axes, adapted from the MIT AI Risk Repository [5]: entity, intentionality, timing
 - Adversarial entries cross-mapped to MITRE ATLAS tactics and techniques [6]
 
-> **Shadow AI (AIR.083):** no owner, review or telemetry; detection depends on network and API-gateway monitoring (AIMLT).
+> [!WARNING]
+> **Shadow AI (`AIR.083`):** no owner, review or telemetry; detection depends on network and API-gateway monitoring (`AIMLT`).
 
-## 6. Pillar III: Controls
+## 6 · Pillar III: Controls
 
-| Code | Core AI/ML domain (15; 5 shown) |
-| --- | --- |
-| `AISDL` | Secure data lifecycle |
-| `AIMDV` | Model/agent validation & testing |
-| `AIMLT` | Monitoring & telemetry |
-| `AIIR` | Incident response & forensics |
-| `AIGPC` | Governance, compliance & ethics |
+<table>
+<tr><th>Code</th><th>Core AI/ML domain <sub>(15; 5 shown)</sub></th><th>Code</th><th>Agentic domain <sub>(10; 5 shown)</sub></th></tr>
+<tr><td><code>AISDL</code></td><td>Secure data lifecycle</td><td><code>AGAS</code></td><td>Goal alignment &amp; safety</td></tr>
+<tr><td><code>AIMDV</code></td><td>Model/agent validation &amp; testing</td><td><code>SI</code></td><td>Safe interruptibility</td></tr>
+<tr><td><code>AIMLT</code></td><td>Monitoring &amp; telemetry</td><td><code>TIS</code></td><td>Tool instruction safety</td></tr>
+<tr><td><code>AIIR</code></td><td>Incident response &amp; forensics</td><td><code>HOD</code></td><td>Human oversight &amp; decision</td></tr>
+<tr><td><code>AIGPC</code></td><td>Governance, compliance &amp; ethics</td><td><code>ARTS</code></td><td>Agentic red-team &amp; simulation</td></tr>
+</table>
 
-| Code | Agentic domain (10; 5 shown) |
-| --- | --- |
-| `AGAS` | Goal alignment & safety |
-| `SI` | Safe interruptibility |
-| `TIS` | Tool instruction safety |
-| `HOD` | Human oversight & decision |
-| `ARTS` | Agentic red-team & simulation |
-
-## 7. AI Security Service Team
+## 7 · AI Security Service Team
 
 Worked example: risk `R.AIR.058`, *Agent interaction & collusion*, traced through capability areas and control domains to individual controls.
 
-| Capability area | Control domain | Control |
-| --- | --- | --- |
-| Detection & Response | `AIMLT` Monitoring & Telemetry | `AIMLT.11` Behavioral drift & tool-usage monitoring |
-| Detection & Response | `AIIR` Incident Response & Forensics | `AIIR.1` AI & agent-aware IR playbook |
-| Adversarial Testing | `ARTS` Agentic Red-Team & Simulation | `ARTS.2` Multi-agent simulation |
-| Infrastructure | `AIIEH` Infrastructure Hardening | `AIIEH.11` Agent sandbox & egress control |
-| Agentic Safety | `AII` Agent Interaction & Isolation | `AII.1` Agent trust boundary & segmentation |
+<img src="figures/service-team.svg" alt="Risk R.AIR.058, agent interaction and collusion, maps to four capability areas, five control domains and five controls: Detection and Response (AIMLT.11 behavioral drift and tool-usage monitoring; AIIR.1 AI and agent-aware IR playbook), Adversarial Testing (ARTS.2 multi-agent simulation), Infrastructure (AIIEH.11 agent sandbox and egress control), Agentic Safety (AII.1 agent trust boundary and segmentation)." width="100%">
 
-Source: AI Cyber Risk Framework, R.AIR.058
+<sub>Source: AI Cyber Risk Framework, R.AIR.058</sub>
 
-## 8. Release and Future Work
+## 8 · Release and Future Work
 
 - CC BY 4.0 spreadsheets: [github.com/FireMountainLabs/ai-cyber-risk-framework](https://github.com/FireMountainLabs/ai-cyber-risk-framework)
 - Controls specify requirements, not implementation
 - Future: maturity indicators per domain; expanded agentic coverage
 
-## 9. References
+## 9 · References
 
 1. J. Harguess and C. M. Ward. Is the next winter coming for AI? The elements of making secure and robust AI. *Trustworthy and Socially Responsible Machine Learning (TSRML), NeurIPS Workshop*, 2022.
 2. C. M. Ward, J. Harguess, J. Tao, D. Christman, M. Tan, and P. Spicer. The AI security pyramid of pain. *Assurance and Security for AI-enabled Systems*, vol. 13054, pp. 44–53. SPIE, 2024.
@@ -122,3 +107,9 @@ Source: AI Cyber Risk Framework, R.AIR.058
 4. National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0). NIST AI 100-1, 2023.
 5. MIT FutureTech. The AI Risk Repository. arXiv:2408.12622v2, 2025.
 6. The MITRE Corporation. MITRE ATLAS. https://atlas.mitre.org/, 2024.
+
+---
+
+## The poster
+
+<a href="CAMLIS2026_poster.pdf"><img src="figures/poster-preview.png" alt="The full CAMLIS 2026 poster" width="100%"></a>
