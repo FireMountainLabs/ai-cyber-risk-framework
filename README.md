@@ -83,9 +83,8 @@ A machine-readable citation is available in [CITATION.cff](CITATION.cff).
 
 ## Poster
 
-A 36 × 48 in poster presented at CAMLIS 2026 (Arlington, VA, 22 October 2026) summarizes
-the framework. Read it on GitHub as [Markdown](poster/README.md), or download the
-[PDF](poster/CAMLIS2026_poster.pdf).
+A 36 × 48 in poster summarizes the framework. Read it on GitHub as [Markdown](poster/README.md), or download the
+[PDF](poster/poster.pdf).
 
 ---
 

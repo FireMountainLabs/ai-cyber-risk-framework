@@ -1,15 +1,10 @@
 <p align="center">
-  <img src="figures/banner.svg" alt="Operationalizing Enterprise AI Security: an open-source framework for AI cyber risk management. CAMLIS 2026 poster." width="100%">
+  <img src="figures/banner.svg" alt="Operationalizing Enterprise AI Security: an open-source framework for AI cyber risk management." width="100%">
 </p>
 
 <p align="center">
-  <a href="https://www.camlis.org"><img alt="CAMLIS 2026" src="https://img.shields.io/badge/CAMLIS-2026-003452?style=for-the-badge&labelColor=CB6929"></a>
-  <a href="CAMLIS2026_poster.pdf"><img alt="Download the PDF" src="https://img.shields.io/badge/Poster-36%20%C3%97%2048%20in%20PDF-003452?style=for-the-badge&labelColor=74121D"></a>
+  <a href="poster.pdf"><img alt="Download the PDF" src="https://img.shields.io/badge/Poster-36%20%C3%97%2048%20in%20PDF-003452?style=for-the-badge&labelColor=74121D"></a>
   <a href="https://github.com/FireMountainLabs/ai-cyber-risk-framework"><img alt="Framework repository" src="https://img.shields.io/badge/Framework-CC%20BY%204.0-003452?style=for-the-badge&labelColor=56876D"></a>
-</p>
-
-<p align="center">
-  Presented at <a href="https://www.camlis.org">CAMLIS 2026</a> (Conference on Applied Machine Learning in Information Security), 22 October 2026, Arlington, VA.
 </p>
 
 ---
@@ -112,4 +107,4 @@ Worked example: risk `R.AIR.058`, *Agent interaction & collusion*, traced throug
 
 ## The poster
 
-<a href="CAMLIS2026_poster.pdf"><img src="figures/poster-preview.png" alt="The full CAMLIS 2026 poster" width="100%"></a>
+<a href="poster.pdf"><img src="figures/poster-preview.png" alt="The full poster" width="100%"></a>
