@@ -81,6 +81,14 @@ A machine-readable citation is available in [CITATION.cff](CITATION.cff).
 
 ---
 
+## Poster
+
+A 36 × 48 in poster presented at CAMLIS 2026 (Arlington, VA, 22 October 2026) summarizes
+the framework: [`poster/CAMLIS2026_poster.pdf`](poster/CAMLIS2026_poster.pdf). LaTeX
+source: [FireMountainLabs/CAMLIS2026](https://github.com/FireMountainLabs/CAMLIS2026).
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for
