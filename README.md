@@ -81,6 +81,13 @@ A machine-readable citation is available in [CITATION.cff](CITATION.cff).
 
 ---
 
+## Poster
+
+A 36 × 48 in poster summarizes the framework. Read it on GitHub as [Markdown](poster/README.md), or download the
+[PDF](poster/poster.pdf).
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for
